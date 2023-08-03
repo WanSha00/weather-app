@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/aardvark-sans" type="text/css"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+
+
+    <div class="card">
+
+        <div class="search">
+            <input type="text" placeholder="enter location...." spellcheck="false">
+            <button><img src="img/search.svg"></button>
+        </div>
+
+        <div class="error">
+            <p>No matching location found.</p>
+        </div>
+
+        <div class="weather">
+
+            <img class ="weather-icon" src="#">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <h3 class="condition"></h3>
+
+            <div class="details">
+
+                <div class="col">
+                    <img class ="humidity-img" src="img/humidity.svg">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img class ="wind-img" src="img/wind.svg">
+                    <div>
+                        <p class="windspeed"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <button class="temp-btn"></button>
+        </div>
+    </div>
+</body>
+</html>
